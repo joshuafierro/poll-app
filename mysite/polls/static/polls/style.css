@@ -1,5 +1,11 @@
+
 body{
-  background-color: whitesmoke;
+  background-color: whitesmoke !important;
+}
+
+.container{
+  background-color: white;
+  padding-bottom: 100%;
 }
 
 li a {
@@ -12,4 +18,6 @@ li a {
   margin-top: 5%;
   background-color: #C9F0DD;
   padding-left: 2%;
+  margin-left: 0;
+  margin-right: 0;
 }
