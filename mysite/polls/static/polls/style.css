@@ -3,21 +3,50 @@ body{
   background-color: whitesmoke !important;
 }
 
-.container{
+.jumbotron{
+  text-align: left;
+  background: white url("images/background-board-chart-590041.jpg") no-repeat;
+  background-size: cover;
+  padding-bottom: 25% !important;
+}
+
+.jumboTitle{
+  color: white;
+}
+
+.container1{
   background-color: white;
-  padding-bottom: 100%;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 50%;
+}
+
+li {
+  list-style-type: none;
 }
 
 li a {
-    color: green;
+    color: #df3e5f;
     font-size: 1.2rem;
-    list-style-type: none;
+}
+
+li a:hover {
+  color: #df3e5f;
 }
 
 .pageTitle {
-  margin-top: 5%;
-  background-color: #C9F0DD;
+  /* margin-top: 5%; */
+  color: white;
+  background-color: #49b8e4;
   padding-left: 2%;
-  margin-left: 0;
-  margin-right: 0;
+}
+
+.btn-poll-submit{
+  background-color: #df3e5f;
+  border: solid #df3e5f 2px;
+  color: white;
+}
+
+form, .back-btn{
+  padding-left:2%;
 }
